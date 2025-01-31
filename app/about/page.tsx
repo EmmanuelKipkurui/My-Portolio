@@ -52,11 +52,11 @@ With hands-on experience in RESTful API integration, MySQL, and cloud technologi
   </CardHeader>
   <CardContent>
     <ul className="list-disc pl-6 mt-2 space-y-2">
-      <li><b>CCNA R&S:</b> Introduction to Networks (Cisco Networking Academy, 2018).</li>
-      <li><b>NDG Linux Essentials:</b> Cisco Networking Academy, 2019.</li>
-      <li><b>Introduction to Cybersecurity:</b> Cisco Networking Academy, 2025.</li>
-      <li><b>Google IT Support Professional Certificate:</b> 2023.</li>
-      <li><b>AWS Cloud Practitioner Essentials:</b> 2023.</li>
+    <li><b>CCNA R&S:</b> Introduction to Networks (Cisco Networking Academy, 2018).</li>
+<li><b>NDG Linux Essentials:</b> Cisco Networking Academy, 2019.</li>
+<li><b>Google IT Support Professional Certificate:</b> 2023.</li>
+<li><b>AWS Cloud Practitioner Essentials:</b> 2023.</li>
+<li><b>Introduction to Cybersecurity:</b> Cisco Networking Academy, 2025.</li>
     </ul>
   </CardContent>
 </Card>
