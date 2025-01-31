@@ -31,11 +31,11 @@ const skillsData = [
 ]
 
 const certifications = [
-  "CCNA R&S: Introduction to Networks (Cisco Networking Academy, 2018).",
-"NDG Linux Essentials: Cisco Networking Academy, 2019.",
-"Introduction to Cybersecurity: Cisco Networking Academy, 2025.",
-"Google IT Support Professional Certificate: 2023.",
-"AWS Cloud Practitioner Essentials: 2023.",
+ "CCNA R&S: Introduction to Networks (Cisco Networking Academy, 2018).",
+  "NDG Linux Essentials: Cisco Networking Academy, 2019.",
+  "Google IT Support Professional Certificate: 2023.",
+  "AWS Cloud Practitioner Essentials: 2023.",
+  "Introduction to Cybersecurity: Cisco Networking Academy, 2025."
 ]
 
 export default function SkillsPage() {
