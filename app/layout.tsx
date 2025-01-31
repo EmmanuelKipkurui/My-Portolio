@@ -4,6 +4,7 @@ import "./globals.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import { ThemeProvider } from "@/components/ThemeProvider"
+import { Toaster } from "@/components/ui/toaster"
 import type React from "react"
 
 const inter = Inter({
@@ -47,8 +48,11 @@ export default function RootLayout({
       <body className={`font-sans antialiased gradient-bg min-h-screen flex flex-col`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <Header />
-          <main className="flex-grow">{children}</main>
+          <main id="page-content" className="flex-grow">
+            {children}
+          </main>
           <Footer />
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>

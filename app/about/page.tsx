@@ -17,12 +17,9 @@ export default function About() {
           </CardHeader>
           <CardContent>
             <p className="text-lg leading-relaxed">
-              As a motivated and detail-oriented Network and IT professional, I bring a robust educational background in
-              Information Technology, complemented by strong certifications in networking and cloud computing. My
-              expertise lies in planning, implementing, and maintaining complex LAN/WAN infrastructures, with a keen
-              focus on security, reliability, and business continuity. I pride myself on my extensive experience in
-              system analysis, network design, and troubleshooting, driven by a passion for leveraging cutting-edge
-              technology to propel organizational success.
+            A creative and detail-oriented Web Designer with expertise in frontend development, UI/UX design, and responsive web applications. Skilled in HTML, CSS, JavaScript, React, and Vue.js, with a strong passion for crafting visually appealing and user-friendly digital experiences.
+
+With hands-on experience in RESTful API integration, MySQL, and cloud technologies, Emmanuel thrives in building efficient, scalable, and performance-driven web solutions. He has a solid background in designing e-commerce platforms, task management apps, and portfolio websites, emphasizing accessibility and responsiveness.
             </p>
           </CardContent>
         </Card>
@@ -35,16 +32,7 @@ export default function About() {
               <li>
                 <h3 className="text-xl font-semibold text-primary">Bachelor of Science in Information Technology</h3>
                 <p className="text-muted-foreground">Dedan Kimathi University of Technology (2017–2021)</p>
-                <ul className="list-disc pl-6 mt-2 space-y-1">
-                <li><b>Relevant Coursework:</b> Networking, System Analysis, Cloud Computing, Database Systems</li>
-<li><b>Capstone Project:</b> Designed a Task Management Mobile App to streamline project workflows.</li>
-<li><b>Network Optimization for Search Services:</b> Developed a backend service using Node.js and AWS Lambda, enhancing search accuracy and system efficiency by 25%.</li>
-<li><b>Web-Based Inventory Management System:</b> Designed a secure, scalable system with MySQL, optimizing database performance by 30%.</li>
-<li><b>LAN/WAN Security Implementation:</b> Conducted security audits and implemented firewall policies for a mid-sized enterprise, ensuring compliance with industry standards.</li>
-<li><b>Task Management App:</b> Created an iOS app using Swift, integrating push notifications to improve team collaboration.</li>
-
-
-                </ul>
+                
               </li>
               <li>
                 <h3 className="text-xl font-semibold text-primary">KCSE Certificate</h3>
@@ -57,6 +45,22 @@ export default function About() {
             </ul>
           </CardContent>
         </Card>
+
+        <Card className="card-hover">
+  <CardHeader>
+    <CardTitle className="text-2xl gradient-text">Certifications</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <ul className="list-disc pl-6 mt-2 space-y-2">
+      <li><b>CCNA R&S:</b> Introduction to Networks (Cisco Networking Academy, 2018).</li>
+      <li><b>NDG Linux Essentials:</b> Cisco Networking Academy, 2019.</li>
+      <li><b>Introduction to Cybersecurity:</b> Cisco Networking Academy, 2025.</li>
+      <li><b>Google IT Support Professional Certificate:</b> 2023.</li>
+      <li><b>AWS Cloud Practitioner Essentials:</b> 2023.</li>
+    </ul>
+  </CardContent>
+</Card>
+
       </div>
     </div>
   )

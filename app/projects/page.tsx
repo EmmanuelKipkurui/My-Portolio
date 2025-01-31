@@ -21,14 +21,14 @@ const projects = [
     link: "#",
   },
   {
-    title: "LAN/WAN Security Implementation",
+    title: "E-Commerce Website",
     description:
-      "Conducted security audits and implemented firewall policies for a mid-sized enterprise, ensuring compliance with industry standards.",
+      "Designed and developed a fully responsive e-commerce website using React and Tailwind CSS, increasing mobile traffic by 30%.",
     link: "#",
   },
   {
     title: "Task Management App",
-    description: "Designed an iOS app using Swift, integrating push notifications to improve team collaboration.",
+    description: "Developed the frontend of a task management app using Vue.js, incorporating drag-and-drop functionality and real-time updates.",
     link: "#",
   },
 ]
@@ -38,7 +38,7 @@ export default function Projects() {
     <div className="section-container">
       <PageHeader
         title="Projects"
-        description="A showcase of my work in networking, cloud computing, and IT management"
+        description="A showcase of my work in web design, frontend development, and UI/UX, featuring responsive websites, interactive user interfaces, and seamless integrations."
       />
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project, index) => (

@@ -36,7 +36,7 @@ const experiences = [
 export default function Experience() {
   return (
     <div className="section-container">
-      <PageHeader title="Work Experience" description="My professional journey in the IT and networking field" />
+      <PageHeader title="Work Experience" description="My professional journey in IT has evolved into a passion for web development, creating intuitive and high-performing digital experiences." />
       <div className="mt-8 space-y-8">
         {experiences.map((exp, index) => (
           <Card key={index} className="card-hover">

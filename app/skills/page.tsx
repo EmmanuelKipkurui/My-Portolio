@@ -9,25 +9,33 @@ export const metadata = {
 
 const skillsData = [
   {
-    category: "Networking",
-    skills: ["TCP/IP", "VLAN", "VPN", "SNMP", "IP Telephony", "Firewall Appliances", "Routing Protocols (BGP, OSPF)"],
+    category: "Frontend Development",
+    skills: ["HTML", "CSS", "JavaScript", "React", "Vue.js", " Bootstrap", "Tailwind CSS"],
   },
   {
-    category: "Cloud Technologies",
-    skills: ["AWS (Lambda, S3, DynamoDB)", "Google Cloud", "Microsoft Azure"],
+    category: "UI/UX Design",
+    skills: ["Figma", "Adobe XD", "Wireframing" ,"Prototyping"],
   },
   {
-    category: "IT Management",
-    skills: ["Project Management", "System Administration", "IT Support", "Network Security"],
+    category: "Backend Integration",
+    skills: ["Node.js", "RESTful APIs", "MySQL", "PostgreSQL"],
+  },
+  {
+    category: "Tools",
+    skills: ["Git", "GitHub", "VS Code", "Chrome DevTools"],
+  },
+  {
+    category: "Other Skills",
+    skills: ["Responsive Design", "GitHub", "Cross-Browser Compatibility", "Web Performance Optimization"],
   },
 ]
 
 const certifications = [
-  "Cisco Certified Network Associate (CCNA) (2023)",
-  "NDG Linux Essentials (2024) – Linux Basics, Command Line Proficiency, System Administration",
-  "AWS Cloud Practitioner Essentials (2023) – Cloud Computing Fundamentals, AWS Services",
-  "Google IT Support Professional Certificate (2023) – Troubleshooting, Networking, Systems Administration",
-  "Introduction to Cybersecurity Badge (2024) – Cybersecurity Fundamentals, Risk Management, Threat Analysis",
+  "CCNA R&S: Introduction to Networks (Cisco Networking Academy, 2018).",
+"NDG Linux Essentials: Cisco Networking Academy, 2019.",
+"Introduction to Cybersecurity: Cisco Networking Academy, 2025.",
+"Google IT Support Professional Certificate: 2023.",
+"AWS Cloud Practitioner Essentials: 2023.",
 ]
 
 export default function SkillsPage() {

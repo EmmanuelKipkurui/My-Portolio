@@ -1,8 +1,12 @@
 import { PageHeader } from "@/components/PageHeader"
 import { ContactForm } from "@/components/ContactForm"
 import { Card, CardContent } from "@/components/ui/card"
-import { GitlabIcon as GitHub, Linkedin, Mail, MapPin, Phone } from "lucide-react"
-
+import { GitlabIcon as GitHub, Instagram, Linkedin, Mail, MapPin, MessageCircle, Phone } from "lucide-react"
+const TikTokIcon = ({ className }: { className?: string }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+  </svg>
+)
 export const metadata = {
   title: "Contact Me",
   description: "Get in touch with Emmanuel Kipkurui Ronoh for networking and IT opportunities.",
@@ -46,26 +50,60 @@ export default function Contact() {
   </a>
 </div>
 
-              <div className="flex items-center space-x-4 mt-6">
-                <a
-                  href="https://github.com/EmmanuelKipkurui"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
-                  <GitHub className="h-6 w-6" />
-                  <span className="sr-only">GitHub</span>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/manuh10801"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
-                  <Linkedin className="h-6 w-6" />
-                  <span className="sr-only">LinkedIn</span>
-                </a>
-              </div>
+<div className="flex items-center space-x-4 mt-6">
+  <a
+    href="https://github.com/EmmanuelKipkurui"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-muted-foreground hover:text-primary transition-colors"
+  >
+    <GitHub className="h-6 w-6" />
+    <span className="sr-only">GitHub</span>
+  </a>
+  <a
+    href="https://www.linkedin.com/in/manuh10801"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-muted-foreground hover:text-primary transition-colors"
+  >
+    <Linkedin className="h-6 w-6" />
+    <span className="sr-only">LinkedIn</span>
+  </a>
+  <a
+    href="mailto:kipkuruironoh254@gmail.com"
+    className="text-muted-foreground hover:text-primary transition-colors"
+  >
+    <Mail className="h-6 w-6" />
+    <span className="sr-only">Email</span>
+  </a>
+  <a
+    href="https://www.instagram.com/_manuhronoh?igsh=MWs2YXFoc2l3bGF6"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-muted-foreground hover:text-primary transition-colors"
+  >
+    <Instagram className="h-6 w-6" />
+    <span className="sr-only">Instagram</span>
+  </a>
+  <a
+    href="https://wa.me/254719267759"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-muted-foreground hover:text-primary transition-colors"
+  >
+    <MessageCircle className="h-6 w-6" />
+    <span className="sr-only">WhatsApp</span>
+  </a>
+  <a
+    href="https://www.tiktok.com/@_manuhronoh?_t=ZM-8tWNkWAdPPi&_r=1"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-muted-foreground hover:text-primary transition-colors"
+  >
+    <TikTokIcon className="h-6 w-6" />
+    <span className="sr-only">TikTok</span>
+  </a>
+</div>
             </div>
           </CardContent>
         </Card>
