@@ -3,7 +3,7 @@ import { PageHeader } from "@/components/PageHeader"
 
 export const metadata = {
   title: "About Me",
-  description: "Learn more about Emmanuel Kipkurui Ronoh and his educational background.",
+  description: "Learn more about Emmanuel  Ronoh and his educational background.",
 }
 
 export default function About() {

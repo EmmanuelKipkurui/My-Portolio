@@ -23,26 +23,34 @@ const Footer = () => {
             </div>
             <div className="space-y-4">
               <h3 className="text-lg font-semibold">Quick Links</h3>
-              <nav className="flex flex-col space-y-2">
-                <Link href="/" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Home
-                </Link>
-                <Link href="/about" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  About
-                </Link>
-                <Link href="/experience" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Experience
-                </Link>
-                <Link href="/projects" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Projects
-                </Link>
-                <Link href="/skills" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Skills
-                </Link>
-                <Link href="/contact" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Contact
-                </Link>
-              </nav>
+              <nav className="space-y-2">
+  {/* First Group */}
+  <div className="flex space-x-4">
+    <Link href="/" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+      Home
+    </Link>
+    <Link href="/about" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+      About
+    </Link>
+    <Link href="/experience" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+      Experience
+    </Link>
+  </div>
+
+  {/* Second Group */}
+  <div className="flex space-x-4">
+    <Link href="/projects" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+      Projects
+    </Link>
+    <Link href="/skills" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+      Skills
+    </Link>
+    <Link href="/contact" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+      Contact Us
+    </Link>
+  </div>
+</nav>
+
             </div>
             <div className="space-y-4">
               <h3 className="text-lg font-semibold">Contact Us</h3>

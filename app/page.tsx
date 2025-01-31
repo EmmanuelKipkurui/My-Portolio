@@ -12,11 +12,11 @@ export default function Home() {
       <div className="flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1 space-y-8">
           <PageHeader
-            title="Emmanuel  Ronoh"
+            title="Emmanuel Ronoh"
             description="Web Developer and UI/UX Enthusiast passionate about creating innovative digital experiences that drive business success."
           />
           <div className="flex space-x-4">
-            <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
+            <Button asChild size="lg" className="bg-primary hover:bg-primary/90 shadow-lg">
               <Link href="/about">Learn More</Link>
             </Button>
             <Button asChild variant="outline" size="lg">
@@ -47,77 +47,69 @@ export default function Home() {
           </div>
         </div>
         <div className="flex-1 flex justify-center">
-        <Suspense fallback={<div className="w-64 h-64 bg-muted rounded-full animate-pulse" />}>
-  <Image
-    src="/profile.jpg"
-    alt="Emmanuel  Ronoh"
-    width={256}
-    height={256}
-    className="rounded-full border-4 border-primary shadow-2xl"
-    priority
-  />
-</Suspense>
-
+          <Suspense fallback={<div className="w-64 h-64 bg-muted rounded-full animate-pulse" />}>
+            <Image
+              src="/profile.jpg"
+              alt="Emmanuel Ronoh"
+              width={256}
+              height={256}
+              className="rounded-full border-4 border-primary shadow-2xl"
+              
+              loading="lazy"
+            />
+          </Suspense>
         </div>
       </div>
-      <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-      <Card className="card-hover">
-  <CardContent className="p-6">
-    <h3 className="text-lg font-semibold mb-2">Frontend Development</h3>
-    <p className="text-muted-foreground">
-      Skilled in HTML, CSS, JavaScript, React, Vue.js, Bootstrap, and Tailwind CSS.
-    </p>
-  </CardContent>
-</Card>
-
-<Card className="card-hover">
-  <CardContent className="p-6">
-    <h3 className="text-lg font-semibold mb-2">UI/UX Design</h3>
-    <p className="text-muted-foreground">
-      Experienced in Figma, Adobe XD, wireframing, and prototyping.
-    </p>
-  </CardContent>
-</Card>
-
-<Card className="card-hover">
-  <CardContent className="p-6">
-    <h3 className="text-lg font-semibold mb-2">Backend Integration</h3>
-    <p className="text-muted-foreground">
-      Proficient in Node.js and RESTful APIs for seamless data communication.
-    </p>
-  </CardContent>
-</Card>
-
-<Card className="card-hover">
-  <CardContent className="p-6">
-    <h3 className="text-lg font-semibold mb-2">Database Management</h3>
-    <p className="text-muted-foreground">
-      Experienced in MySQL for efficient data storage and retrieval.
-    </p>
-  </CardContent>
-</Card>
-
-<Card className="card-hover">
-  <CardContent className="p-6">
-    <h3 className="text-lg font-semibold mb-2">Development Tools</h3>
-    <p className="text-muted-foreground">
-      Proficient in Git, GitHub, VS Code, and Chrome DevTools for efficient coding and debugging.
-    </p>
-  </CardContent>
-</Card>
-
-<Card className="card-hover">
-  <CardContent className="p-6">
-    <h3 className="text-lg font-semibold mb-2">Other Skills</h3>
-    <p className="text-muted-foreground">
-      Strong knowledge of responsive design, cross-browser compatibility, and web performance optimization.
-    </p>
-  </CardContent>
-</Card>
-
-
+      <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <Card className="card-hover">
+          <CardContent className="p-6">
+            <h3 className="text-lg font-semibold mb-2">Frontend Development</h3>
+            <p className="text-muted-foreground">
+              Skilled in HTML, CSS, JavaScript, React, Vue.js, Bootstrap, and Tailwind CSS.
+            </p>
+          </CardContent>
+        </Card>
+        <Card className="card-hover">
+          <CardContent className="p-6">
+            <h3 className="text-lg font-semibold mb-2">UI/UX Design</h3>
+            <p className="text-muted-foreground">
+              Experienced in Figma, Adobe XD, wireframing, and prototyping.
+            </p>
+          </CardContent>
+        </Card>
+        <Card className="card-hover">
+          <CardContent className="p-6">
+            <h3 className="text-lg font-semibold mb-2">Backend Integration</h3>
+            <p className="text-muted-foreground">
+              Proficient in Node.js and RESTful APIs for seamless data communication.
+            </p>
+          </CardContent>
+        </Card>
+        <Card className="card-hover">
+          <CardContent className="p-6">
+            <h3 className="text-lg font-semibold mb-2">Database Management</h3>
+            <p className="text-muted-foreground">
+              Experienced in MySQL for efficient data storage and retrieval.
+            </p>
+          </CardContent>
+        </Card>
+        <Card className="card-hover">
+          <CardContent className="p-6">
+            <h3 className="text-lg font-semibold mb-2">Development Tools</h3>
+            <p className="text-muted-foreground">
+              Proficient in Git, GitHub, VS Code, and Chrome DevTools for efficient coding and debugging.
+            </p>
+          </CardContent>
+        </Card>
+        <Card className="card-hover">
+          <CardContent className="p-6">
+            <h3 className="text-lg font-semibold mb-2">Other Skills</h3>
+            <p className="text-muted-foreground">
+              Strong knowledge of responsive design, cross-browser compatibility, and web performance optimization.
+            </p>
+          </CardContent>
+        </Card>
       </div>
     </div>
   )
 }
-
