@@ -6,7 +6,7 @@ import { Button } from "./ui/button"
 import { useState, useEffect } from "react"
 import { Menu, X } from "lucide-react"
 
-const Header = () => {
+export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
   const [isClosing, setIsClosing] = useState(false)
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
@@ -120,6 +120,4 @@ const Header = () => {
     </header>
   )
 }
-
-export default Header
 
