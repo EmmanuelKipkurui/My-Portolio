@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1 space-y-8">
           <PageHeader
-            title="Emmanuel Ronoh"
+            title="EMMANUEL RONOH"
             description="Web Developer and UI/UX Enthusiast passionate about creating innovative digital experiences that drive business success."
           />
           <div className="flex space-x-4">

@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="py-8 md:py-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold gradient-text">Emmanuel Ronoh</h3>
+              <h3 className="text-lg font-semibold gradient-text">EMMANUEL RONOH</h3>
               <p className="text-sm text-muted-foreground">
               Network, IT, and Web Development professional passionate about leveraging technology to build dynamic, user-friendly web applications and drive organizational success through innovative digital solutions.
               </p>
